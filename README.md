@@ -1,7 +1,13 @@
-﻿# Partenaire FR (demo)
+﻿# Partenaire FR
 
-**Spustit appku:** https://medulyn.github.io/francais-partner-demo/
+## Android appka (APK)
 
-Na mobilu: otevři odkaz výše → prohlížeč → Přidat na plochu.
+**Stáhnout:** https://github.com/Medulyn/francais-partner-demo/releases/tag/apk-mobile
 
-Toto repo obsahuje jen statický build (GitHub Pages). Zdroják je private.
+1. Otevři odkaz výše (nebo v GitHub appce toto repo → **Releases**)
+2. Klepni na **Partenaire-FR.apk**
+3. Instaluj → spouštěj z plochy telefonu
+
+## Web (prohlížeč)
+
+https://medulyn.github.io/francais-partner-demo/
