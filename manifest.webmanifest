@@ -1,13 +1,13 @@
 {
-  "name": "Partenaire FR",
-  "short_name": "Partenaire",
-  "description": "Practice spoken French with a Live AI partner",
+  "name": "Speak FFS!",
+  "short_name": "Speak FFS!",
+  "description": "Just speak French. Grammar can wait.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "background_color": "#f3faf4",
-  "theme_color": "#2f8f4e",
+  "background_color": "#f6f1e8",
+  "theme_color": "#1a2e24",
   "lang": "cs",
   "icons": [
     {

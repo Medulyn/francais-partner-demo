@@ -1,13 +1,11 @@
-﻿# Partenaire FR
+﻿# Speak FFS!
 
-## Android appka (APK)
+Just speak. Grammar can wait.
 
-**Stáhnout:** https://github.com/Medulyn/francais-partner-demo/releases/tag/apk-mobile
+## Android APK
 
-1. Otevři odkaz výše (nebo v GitHub appce toto repo → **Releases**)
-2. Klepni na **Partenaire-FR.apk**
-3. Instaluj → spouštěj z plochy telefonu
+https://github.com/Medulyn/francais-partner-demo/releases/tag/apk-mobile
 
-## Web (prohlížeč)
+## Web
 
 https://medulyn.github.io/francais-partner-demo/
