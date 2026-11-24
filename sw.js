@@ -1,5 +1,5 @@
-/* Partenaire FR — cache shell for offline open; Live API still needs network. */
-const CACHE = 'partenaire-fr-v1'
+/* Speak FFS! — network-first so demos update; offline fallback from cache. */
+const CACHE = 'speak-ffs-v3'
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -26,18 +26,16 @@ self.addEventListener('fetch', (event) => {
   // Never cache Google / Live API
   if (url.hostname.includes('googleapis.com') || url.hostname.includes('google.com')) return
 
+  // Network-first: always prefer fresh build; cache only as offline fallback.
   event.respondWith(
-    caches.match(req).then((cached) => {
-      const network = fetch(req)
-        .then((res) => {
-          if (res.ok && url.origin === self.location.origin) {
-            const copy = res.clone()
-            void caches.open(CACHE).then((c) => c.put(req, copy))
-          }
-          return res
-        })
-        .catch(() => cached)
-      return cached || network
-    }),
+    fetch(req)
+      .then((res) => {
+        if (res.ok && url.origin === self.location.origin) {
+          const copy = res.clone()
+          void caches.open(CACHE).then((c) => c.put(req, copy))
+        }
+        return res
+      })
+      .catch(() => caches.match(req).then((cached) => cached || caches.match('./index.html'))),
   )
 })
