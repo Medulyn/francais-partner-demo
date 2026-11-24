@@ -1,0 +1,12 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Partenaire FR">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#58b368"/>
+      <stop offset="100%" stop-color="#2f8f4e"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#g)"/>
+  <circle cx="256" cy="210" r="78" fill="#fff" opacity="0.95"/>
+  <path d="M128 400c28-74 92-112 128-112s100 38 128 112" fill="none" stroke="#fff" stroke-width="36" stroke-linecap="round"/>
+  <text x="256" y="455" text-anchor="middle" fill="#e7f6ea" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="700">FR</text>
+</svg>
