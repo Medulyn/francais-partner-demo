@@ -1,7 +1,7 @@
 {
   "name": "Speak FFS!",
   "short_name": "Speak FFS!",
-  "description": "Just speak French. Grammar can wait.",
+  "description": "Speak FFS! — French… for sure. Just speak. Grammar can wait.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

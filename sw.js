@@ -1,5 +1,5 @@
 /* Speak FFS! — network-first so demos update; offline fallback from cache. */
-const CACHE = 'speak-ffs-v3'
+const CACHE = 'speak-ffs-v4'
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
